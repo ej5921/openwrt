@@ -45,6 +45,7 @@ ALLWIFIBOARDS:= \
 	glinet_gl-s1300 \
 	linksys_ea8300 \
 	linksys_mr8300-v0 \
+	linksys_whw01-v1 \
 	linksys_whw03v2 \
 	luma_wrtq-329acn \
 	mobipromo_cm520-79f \
@@ -136,6 +137,7 @@ $(eval $(call generate-ipq-wifi-package,glinet_gl-b2200,GL.iNet GL-B2200))
 $(eval $(call generate-ipq-wifi-package,glinet_gl-s1300,GL.iNet GL-S1300))
 $(eval $(call generate-ipq-wifi-package,linksys_ea8300,Linksys EA8300))
 $(eval $(call generate-ipq-wifi-package,linksys_mr8300-v0,Linksys MR8300))
+$(eval $(call generate-ipq-wifi-package,linksys_whw01-v1,Linksys WHW01 v1))
 $(eval $(call generate-ipq-wifi-package,linksys_whw03v2,Linksys WHW03V2))
 $(eval $(call generate-ipq-wifi-package,luma_wrtq-329acn,Luma WRTQ-329ACN))
 $(eval $(call generate-ipq-wifi-package,mobipromo_cm520-79f,MobiPromo CM520-79F))
